@@ -89,7 +89,7 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
 
         CorsConfiguration config = new CorsConfiguration();
-        config.setAllowedOrigins(java.util.List.of("https://frontend-production-5988.up.railway.app"));
+        config.setAllowedOrigins(java.util.List.of("https://front-production-8086.up.railway.app/"));
         config.setAllowedMethods(java.util.List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(java.util.List.of("*"));
         config.setExposedHeaders(java.util.List.of("Authorization"));
