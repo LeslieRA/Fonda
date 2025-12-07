@@ -13,9 +13,9 @@ public class CloudinaryConfig {
     @Bean
     public Cloudinary cloudinary() {
         return new Cloudinary(ObjectUtils.asMap(
-            "cloud_name", "drhtzmxqc",
-            "api_key", "219132286996962",
-            "api_secret", "aiHDT5-TbIb3OD0lvpAjHJ8RH2w",
+            "cloud_name", "dlfxbftzp",
+            "api_key", "992772981244268",
+            "api_secret", "AsxdeFXqb_338oERAohdMjhDCBw",
             "secure", true
         ));
     }
