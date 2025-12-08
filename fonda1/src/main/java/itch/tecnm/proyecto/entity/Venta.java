@@ -57,13 +57,11 @@ public class Venta {
     @PrePersist
     protected void onCreate() {
         // si por alguna razón está seteada, igual la normalizamos
-        this.fechaVenta = LocalDateTime.now(ZoneId.of("America/Mexico_City"))
-                                       .withSecond(0).withNano(0);
+        this.fechaVenta = LocalDateTime.now().withSecond(0).withNano(0);
     }
 
     @PreUpdate
     protected void onUpdate() {
-        this.fechaVenta = LocalDateTime.now(ZoneId.of("America/Mexico_City"))
-                                       .withSecond(0).withNano(0);
+        this.fechaVenta = LocalDateTime.now().withSecond(0).withNano(0);
     }
 }
